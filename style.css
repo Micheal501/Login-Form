@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  background-image: url("images/img-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  border-radius: 10px;
+  padding: 50px 50px;
+}
+
+.wrapper h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+
+.input-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-box input {
+  border-radius: 20px;
+  padding: 10px 50px;
+  text-align: center;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  background: transparent;
+}
+
+.login-btn {
+  text-align: center;
+  font-size: 16px;
+}
+
+.login-btn button,
+.register {
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+
+.login-btn button {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 5px 108px;
+  background-color: #fff;
+  color: #000;
+}
+
+.register span {
+  color: rgb(0, 149, 246);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login-btn p {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
